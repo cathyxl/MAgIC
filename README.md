@@ -189,9 +189,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Lin_Xu_](https://twitter.com/twitter_handle) - cathyxl2016@gmail.com
+Lin Xu- [@Lin_Xu_](https://twitter.com/twitter_handle) - cathyxl2016@gmail.com
 
-Project Link: [https://github.com/cathyxl/MAgIC](https://github.com/cathyxl/MAgIC)
+<!-- Project Link: [https://zhiyuanhubj.github.io/MAgIC/](https://zhiyuanhubj.github.io/MAgIC/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
