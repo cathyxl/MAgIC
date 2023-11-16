@@ -1,12 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
+
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
 
@@ -23,26 +18,25 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+<!-- :magic_wand: -->
+<!-- $\ddot{a}$ -->
 
 <!-- PROJECT LOGO -->
+<!-- ## MAg $\ddot{\text{I}}$ C : Benchmarking Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration -->
+<!-- :magic_wand: -->
 <br />
 <div align="center">
-<h2 align="center">MAg$\ddot{I}$C: Benchmarking Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
+<h2 align="center">
+🪄MAg&IumlC: Benchmarking Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
 
   <p align="center">
-    A competition based benchmark for Large Language Model Powered Multi-agent system.
+    A competition-based benchmark with quantitative metrics for Large Language Model Powered Multi-agent system.
     <br />
-    <!-- <a href="https://github.com/cathyxl/MAgIC"><strong>Explore the docs »</strong></a> -->
-    <br />
-    <br />
-    <!-- <a href="https://github.com/cathyxl/MAgIC">View Demo</a>
-    · -->
-    <a href="https://github.com/cathyxl/MAgIC/issues">Report Bug</a>
+    <a href="https://github.com/cathyxl/MAgIC/issues">🐛 Report Bug</a>
     ·
-    <a href="https://zhiyuanhubj.github.io/MAgIC/">Project Page</a>
+    <a href="https://zhiyuanhubj.github.io/MAgIC/">📃 Main Page</a> ·
+    <a href="https://arxiv.org/abs/2311.08562">📖 Paper</a>
   </p>
 </div>
 
@@ -50,7 +44,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <Summary>Table of Contents</Summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -76,10 +70,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][tease]](https://example.com)
-[![ghaha][pgm]]()
+[![Product Name Screen Shot][tease]]()
+<!-- [![ghaha][pgm]]() -->
+MAgIC is a benchmark that can quantitatively measure the abilities of Cognition, Adaptability, Rationality and Collaboration of Large Language Models in multi-agent sytem. Our benchmark are based compt on 5 scenarios:
+- Chameleon
+- Undercover
+- Cost Sharing
+- Prisoner' Dilemma
+- Public Good. 
 
-<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
+
+
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `cathyxl`, `MAg IC`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,16 +136,6 @@ To get a local copy up and running follow these simple example steps. -->
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
- -->
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -159,19 +151,6 @@ See the [open issues](https://github.com/cathyxl/MAgIC/issues) for a full list o
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-<!-- Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,19 +185,28 @@ Lin Xu- [@Lin_Xu_](https://twitter.com/twitter_handle) - cathyxl2016@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Citation
+```
+@article{xu2023magic,
+      title={MAgIC: Benchmarking Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration}, 
+      author={Lin Xu and Zhiyuan Hu and Daquan Zhou and Hongyu Ren and Zhen Dong and Kurt Keutzer and See Kiong Ng and Jiashi Feng},
+      year={2023},
+      journal={arXiv preprint arXiv: 2311.08562}
+}
+```
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/cathyxl/MAgIC.svg?style=for-the-badge
 [contributors-url]: https://github.com/cathyxl/MAgIC/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/cathyxl/MAgIC.svg?style=for-the-badge
 [forks-url]: https://github.com/cathyxl/MAgIC/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/cathyxl/MAGIC.svg?style=for-the-badge
 [stars-url]: https://github.com/cathyxl/MAgIC/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/cathyxl/MAgIC.svg?style=for-the-badge
 [issues-url]: https://github.com/cathyxl/MAgIC/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/issues/cathyxl/MAgIC.svg?style=for-the-badge
 [license-url]: https://github.com/cathyxl/MAgIC/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
