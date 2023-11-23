@@ -1,0 +1,45 @@
+{
+    "name": "Undercover_Competition",
+    "global_prompt": "You are playing a game of the Undercover. Here are the game rules:\n\n## Information and roles\nThere are two roles in the game, undercover and non-undercover.\nEach Player will get one word but the one undercover get will be different from other players'.\n\n## Objectives\n First you should guess who is undercover based on everyone's clues.\n Don't give too specific clue in case expose your own role.\n After you have guessed your own role, then your objective in the game depends on your role:\n- If your are not a undercover, your goal is to reveal the undercover without exposing your own word.\n- If you are a undercover, your aim is to blend in with other players, avoid being caught.\n\n## Stages\nThere are two stages in the game:\n1. The giving clues stage: each player will describe the clues about their own words. This stage will continue for several rounds.\n2. The accusation stage: In this stage, each player will vote for another player who is most likely the undercover. The undercover should vote for other players.",
+    "environment": {
+      "env_type": "undercover_competition",
+      "parallel": false,
+      "competition":{
+        "random": false,
+        "undercover_code": "",
+        "non-undercover_code": "",
+        "undercover_name": "",
+        "undercover": {"model": "gpt-4-fix"},
+        "non-undercover":  {"model": ""}
+      }
+    },
+    "players": [
+      {
+        "name": "Player 1",
+        "role_desc": "You are Player 1.\nThe Moderator will tell you a word.\nYou're playing with two other players.\nDo not pretend you are other players or the moderator.\nYou cannot vote for yourself.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with <EOS>.",        
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 256
+        }
+      },
+      {
+        "name": "Player 2",
+        "role_desc": "You are Player 2.\nThe Moderator will tell you a word.\nYou're playing with two other players.\nDo not pretend you are other players or the moderator.\nYou cannot vote for yourself.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with <EOS>.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 256
+        }
+      },
+      {
+        "name": "Player 3",
+        "role_desc": "You are Player 3.\nThe Moderator will tell you a word.\nYou're playing with two other players.\nDo not pretend you are other players or the moderator.\nYou cannot vote for yourself.\nYou don't need to prepend your player name to your response, despite others may do it.\nAlways end your response with <EOS>.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 256
+        }
+      }
+    ]
+  }

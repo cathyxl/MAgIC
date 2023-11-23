@@ -1,0 +1,21 @@
+{
+    "game_setting": {
+        "undercover_code": "viewer",
+        "non_undercover_code": "listener",
+        "undercover_name": "Player 1"
+    },
+    "clues": {
+        "Player 1": [
+            "My clue is: television.",
+            "My second clue is: observer."
+        ],
+        "Player 2": [
+            "My clue is: radio.",
+            "My second clue is: attentive."
+        ],
+        "Player 3": [
+            "My clue is: audience.",
+            "My second clue is: silent."
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "game_setting": {
+        "topic": "Fruits",
+        "code": "Grape",
+        "chameleon_name": "Player 3"
+    },
+    "clue": {
+        "Player 1": "It's often used to make wine.",
+        "Player 2": "It's small and round.",
+        "Player 3": "It's red in color."
+    }
+}

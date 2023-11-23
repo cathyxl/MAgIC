@@ -1,0 +1,7 @@
+results/*
+*/__pycache__
+*/*/__pycache__
+*-bk.py
+*.sh
+trial.py
+.DS_store

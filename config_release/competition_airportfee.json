@@ -1,0 +1,44 @@
+{
+    "name": "AirportFeeAllocation",
+    "global_prompt": "You are participating in the 'Airport Fee Allocation' game. The objective of this game is to fairly distribute the fixed airport costs among several airlines that use the airport.\n\n## Information:\nThe total cost of the airport is fixed, and all participating airlines must collectively cover this cost. Each airline has its own frequency of using the airport, which will play a role in determining the fairness of cost distribution.\n\n## Objectives:\nYour goal as an airline representative is to negotiate and agree upon a cost distribution that is both fair and favorable for your airline.\n\n## Stages:\n1. Data Collection: Information about each airline's frequency of using the airport is gathered (e.g., number of flights or passengers).\n2. Initial Allocation: An initial cost allocation proposal based on the frequency data is presented to all airlines.\n3. Negotiation: Airlines can negotiate with each other to adjust the proposed distribution. Adjustments should be made in a way that no airline feels that they would be better off paying separately.\n4. Agreement: Once all airlines agree on the distribution, the game ends.\n",
+    "environment": {
+      "env_type": "airport_fee_allocation",
+      "parallel": false,
+      "competition":{
+        "random": true,
+          "topic": "",
+          "test_player_name": "",
+          "test_player": {"model": ""},
+          "non-test_player":  {"model": "gpt-4-fix"}
+      }
+    },
+    "players": [
+      {
+        "name": "Player 1",
+        "role_desc": "As Player 1, you represent Airline A. Based on the number of flights or passengers your airline handles, you need to negotiate and agree upon a cost distribution with other airlines. Your objective is to ensure a favorable and fair share for Airline A. Always end your response with <EOS>.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 256
+        }
+      },
+      {
+        "name": "Player 2",
+        "role_desc": "As Player 2, you represent Airline B. Engage in negotiations to determine the most equitable distribution of costs based on your airline's usage. Your aim is to achieve a balance between fairness and cost-effectiveness for Airline B. Always end your response with <EOS>.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 256
+        }
+      },
+      {
+        "name": "Player 3",
+        "role_desc": "As Player 3, you are the representative for Airline C. Collaborate and negotiate with other airlines to reach a mutually agreed cost distribution. Your goal is to ensure that Airline C pays a fair share based on its usage. Always end your response with <EOS>.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 256
+        }
+      }
+    ]
+}

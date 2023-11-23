@@ -22,9 +22,6 @@
 <!-- :magic_wand: -->
 <!-- $\ddot{a}$ -->
 
-<!-- PROJECT LOGO -->
-<!-- ## MAg $\ddot{\text{I}}$ C : Benchmarking Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration -->
-<!-- :magic_wand: -->
 <br />
 <div align="center">
 <h2 align="center">
@@ -37,10 +34,14 @@
     ·
     <a href="https://zhiyuanhubj.github.io/MAgIC/">📃 Main Page</a> ·
     <a href="https://arxiv.org/abs/2311.08562">📖 Paper</a>
+    <a href="https://arxiv.org/abs/2311.08562"> 📊 Leaderboard</a>
   </p>
 </div>
 
 
+<!-- ## 📌Introducing MAgIC Benchmark🎉
+1. Run our bench with 
+2. We provide t -->
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -72,65 +73,49 @@
 
 [![Product Name Screen Shot][tease]]()
 <!-- [![ghaha][pgm]]() -->
-MAgIC is a benchmark that can quantitatively measure the abilities of Cognition, Adaptability, Rationality and Collaboration of Large Language Models in multi-agent sytem. Our benchmark are based compt on 5 scenarios:
+
+MAgIC provides a benchmark that can quantitatively measure the abilities of Cognition, Adaptability, Rationality and Collaboration of Large Language Models within multi-agent sytems. Our benchmark are based competition on 5 scenarios:
 - Chameleon
 - Undercover
 - Cost Sharing
 - Prisoner' Dilemma
-- Public Good. 
+- Public Good
 
-
-
-<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `cathyxl`, `MAg IC`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-
-
-<!-- GETTING STARTED -->
+## Leaderboard
+We have tested 10 models in our benchmark, and the PGM method we proposd has achieved a remarkable improvement.
+[![Product Name Screen Shot][leaderboard]]()
 ## Getting Started
 
-<!-- This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps. -->
-
-### Prerequisites
-
-<!-- This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ``` -->
-
 ### Installation
-<!-- 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/cathyxl/MAgIC.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API'; -->
-   <!-- ``` -->
+1. Environment preparation
+```
+# conda virtual environment
+conda create -n magic_llm python=3.9
+conda activate magic_llm
+ 
+# or python3 virtual environment
+mkdir magic_llm
+python3 -m venv magic_llm
+source magic_llm/bin/activate
+```
+2. Install required environments
+```
+pip3 install -r requirements.txt
+```
+### Run competition and evaluation
+1. Get your own OpenAI API Key, and set \$openai_api_key\$
+```
+export OPENAI_API_KEY=$openai_api_key$
+```
+2. Run experiments and calculate metrics. Now this code verson only support openai models, if you want to test your own LLMs, please refer to our leaderboard website to test your LLM and upload your results.
+```
+python3 arena_runner.py
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,17 +124,9 @@ To get a local copy up and running follow these simple example steps. -->
 
 <!-- ROADMAP -->
 ## Roadmap
-- [ ] Upload relevant code
-<!-- - [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/cathyxl/MAgIC/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-
+- [ x ] Upload relevant code
+- [  ] Add link to Leaderboard website
+- [  ] Introduce more scenarios and LLM results
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -170,18 +147,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Lin Xu- [@Lin_Xu_](https://twitter.com/twitter_handle) - cathyxl2016@gmail.com
 
-<!-- Project Link: [https://zhiyuanhubj.github.io/MAgIC/](https://zhiyuanhubj.github.io/MAgIC/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments
-
-* []()
-* []()
-* []() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,6 +180,7 @@ Lin Xu- [@Lin_Xu_](https://twitter.com/twitter_handle) - cathyxl2016@gmail.com
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [tease]: imgs/tease_horizontal.jpg
 [pgm]: imgs/pgm.jpg
+[leaderboard]: imgs/leaderboard.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

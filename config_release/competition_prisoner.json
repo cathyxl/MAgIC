@@ -1,0 +1,55 @@
+{
+    "name": "Iterative Three-Player Prisoners' Dilemma",
+    "global_prompt": "You are playing the Iterative Three-Player Prisoners' Dilemma game. Players 1, 2, and 3 are involved in a crime and are interrogated separately. They can either choose to betray the others (Defect, D) or cooperate with them (Cooperate, C). The rewards and penalties are distributed based on the combination of choices made by the three players. ",
+    "environment": {
+      "env_type": "prisoner",
+      "parallel": true,
+      "moderator": {
+        "role_desc": "You are the system for the Iterative Three-Player Prisoners' Dilemma game. Your task is to record the players' choices in each round, calculate the scores based on those choices, and output each player's decision and the resulting scores.\n\n## Termination conditions\nAfter 5 rounds, calculate the total scores of the players. The player with the highest score wins. In case of ties, announce the tied players as winners.\n\n## Other instructions\nDo not write code.\nDo not instruct the players to do anything.",
+        "terminal_condition": "Have 5 rounds been completed and the final scores calculated? Answer yes or no.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 200
+        }
+      },
+      "competition":{
+        "random": true,
+          "topic": "",
+          "test_player_name": "",
+          "test_player": {"model": ""},
+          "non-test_player":  {"model": "gpt-4"}
+      },
+      "moderator_visibility": "Moderator",
+      "moderator_period": "round"
+    },
+    "players": [
+      {
+        "name": "Player 1",
+        "role_desc": "You play as Player 1. Your task is to choose to either betray the others (Defect, D) or cooperate with them (Cooperate, C) in each round. For example, you can output: \"Defect.\" The choice you make must be consistent with the game rules. You should not play as the host. Do not output the \"host\" and the choices of other players. Do not say anything else except for your decision.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 128
+        }
+      },
+      {
+        "name": "Player 2",
+        "role_desc": "You play as Player 2. Your task is to choose to either betray the others (Defect, D) or cooperate with them (Cooperate, C) in each round. For example, you can output: \"Cooperate.\" The choice you make must be consistent with the game rules. You should not play as the host. Do not output the \"host\" and the choices of other players. Do not say anything else except for your decision.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 128
+        }
+      },
+      {
+        "name": "Player 3",
+        "role_desc": "You play as Player 3. Your task is to choose to either betray the others (Defect, D) or cooperate with them (Cooperate, C) in each round. For example, you can output: \"Cooperate.\" The choice you make must be consistent with the game rules. You should not play as the host. Do not output the \"host\" and the choices of other players. Do not say anything else except for your decision.",
+        "backend": {
+          "backend_type": "openai-chat",
+          "temperature": 0,
+          "max_tokens": 128
+        }
+      }
+    ]
+  }
