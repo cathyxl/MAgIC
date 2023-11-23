@@ -25,7 +25,7 @@
 <br />
 <div align="center">
 <h2 align="center">
-🪄MAg&IumlC: Benchmarking Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
+🪄MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
 
   <p align="center">
     A competition-based benchmark with quantitative metrics for Large Language Model Powered Multi-agent system.
@@ -124,9 +124,10 @@ python3 arena_runner.py
 
 <!-- ROADMAP -->
 ## Roadmap
-- [ x ] Upload relevant code
-- [  ] Add link to Leaderboard website
-- [  ] Introduce more scenarios and LLM results
+
+- [x] Upload relevant code
+- [ ] Add link to Leaderboard website
+- [ ] Introduce more scenarios and LLM results
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
