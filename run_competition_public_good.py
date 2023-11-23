@@ -48,7 +48,7 @@ class Competition_Public_Good():
             with open(f"{self.setting_dir}/{game_id}.json") as f:
                 gs = json.load(f)
         
-            fname = f"{save_dir}/{game_id}-3.json"
+            fname = f"{save_dir}/{game_id}{postfix}.json"
             # if os.path.exists(fname):
             #     print(f"skip {fname}")
             #     continue
