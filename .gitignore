@@ -4,4 +4,5 @@ results/*
 *-bk.py
 *.sh
 trial.py
-.DS_store
+.DS_stores
+*/.DS_stores

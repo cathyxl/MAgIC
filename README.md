@@ -20,12 +20,16 @@
 [![MIT License][license-shield]][license-url]
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 <!-- :magic_wand: -->
-<!-- $\ddot{a}$ -->
+<!-- $\ddot{a}$ 🪄-->
 
 <br />
 <div align="center">
+
+<a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="imgs/logo.png" alt="Logo" width="200" height="200">
+</a>
 <h2 align="center">
-🪄MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
+MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
 
   <p align="center">
     A competition-based benchmark with quantitative metrics for Large Language Model Powered Multi-agent system.
@@ -37,7 +41,7 @@
     <a href="https://arxiv.org/abs/2311.08562"> 📊 Leaderboard</a>
   </p>
 </div>
-
+[![Product Name Screen Shot][tease]]()
 
 <!-- ## 📌Introducing MAgIC Benchmark🎉
 1. Run our bench with 
@@ -66,12 +70,10 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][tease]]()
+
 <!-- [![ghaha][pgm]]() -->
 
 MAgIC provides a benchmark that can quantitatively measure the abilities of Cognition, Adaptability, Rationality and Collaboration of Large Language Models within multi-agent sytems. Our benchmark are based competition on 5 scenarios:
@@ -180,7 +182,9 @@ Lin Xu- [@Lin_Xu_](https://twitter.com/twitter_handle) - cathyxl2016@gmail.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [tease]: imgs/tease_horizontal.jpg
+[demo]: imgs/magic-demo.mp4
 [pgm]: imgs/pgm.jpg
+[logo]: imgs/logo.png
 [leaderboard]: imgs/leaderboard.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/

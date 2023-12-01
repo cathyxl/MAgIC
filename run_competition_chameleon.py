@@ -25,23 +25,6 @@ class Competition_Chameleon():
         
         self.win_count = {"chameleon":0, "non-chameleon":0}
     def run(self,config_dir, competition, path, test_player_model_name, num_of_game=20):
-        
-        # if len(sys.argv) > 1:
-        #     if len(sys.argv) != 4:
-        #         print("require 4 arguments!")
-        #     else:
-        #         config_dir=sys.argv[1]
-        #         competition=sys.argv[2]
-        #         save_root=sys.argv[3]
-        #         test_player_model_name =sys.argv[4]
-        #         postfix=""
-
-        # else:
-        #     config_dir="config_release"
-        #     competition = "competition_as_chameleon"
-        #     save_root = "results/chameleon"
-        #     test_player_model_name = "gpt-3.5-turbo"
-        #     postfix="-test"
             
         config_dir=config_dir
         competition = competition

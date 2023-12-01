@@ -255,6 +255,14 @@ class Undercover_Competition_PGM(Environment):
             return messages
                 
             # return self.message_pool.get_visible_messages(player_name, turn=self._current_turn)
+    
+    def _text2vote_rule(self, text):
+        text = text.lower()
+        for name in self.player_names:
+            candidates = [name.lower(), name.lower().replace(" ", ""), name.lower().replace(" ", "_")]
+            if any([candidate in text for candidate in candidates]):
+                return name
+        return None
 
     def _text2vote(self, text) -> str:
         """
@@ -262,13 +270,11 @@ class Undercover_Competition_PGM(Environment):
         """
         # lower = text.lower().replace("[", "").replace("]", "").replace(".", "")
         
-        text = text.lower()
-        for name in self.player_names:
-            candidates = [name.lower(), name.lower().replace(" ", ""), name.lower().replace(" ", "_")]
-            if any([candidate in text for candidate in candidates]):
-                return name
+        ans = self._text2vote_rule(text)
+        if ans is not None:
+            return ans
         
-        prompt = text+"According to the above text, help me identify which Player the text is voting for or accusing as the undercover? reply with \"Player xx\""
+        prompt = text+"According to the above text, help me identify which Player the text is voting for or accusing as the undercover? You must reply with \"Player xx\""
     
         response = openai.ChatCompletion.create(model="gpt-3.5-turbo",
                                         messages=[{'role':'user','content':prompt}],                                    
@@ -276,8 +282,11 @@ class Undercover_Competition_PGM(Environment):
                                         n=3,
                                         max_tokens=5)
         ans = response['choices'][0]['message']['content']
-        # print(ans)
-        return ans
+        
+        n_ans = self._text2vote_rule(ans)
+        if n_ans is None:
+            return "Player 1"
+        return n_ans
 
     def _text2pgm(self, text):
 
