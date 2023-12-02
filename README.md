@@ -44,7 +44,7 @@ MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognitio
 <!-- https://youtu.be/R5MCYf3mVKI -->
 <!-- https://www.youtube.com/embed/iNqq75Uf57M -->
 <!-- [![Alt text](https://img.youtube.com/vi/iNqq75Uf57M/0.jpg)](https://www.youtube.com/embed/iNqq75Uf57M) -->
-<div align="center" width="800" height="1500" ><a href="https://www.youtube.com/embed/iNqq75Uf57M" title="MAgIC Demo"><img src="https://img.youtube.com/vi/iNqq75Uf57M/0.jpg" alt="Demo"   width="1300" height="600" /></a></div>
+<div align="center" width="800" height="1500" ><a href="https://www.youtube.com/embed/iNqq75Uf57M" title="MAgIC Demo"><img src="imgs/front.jpg" alt="Demo"   width="1000" height="450" /></a></div>
 
 <!--[![Product Name Screen Shot][tease]]()-->
 
