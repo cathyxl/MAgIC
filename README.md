@@ -42,15 +42,19 @@ MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognitio
   </p>
 </div>
 <!-- https://youtu.be/R5MCYf3mVKI -->
-[![Alt text](https://img.youtube.com/vi/R5MCYf3mVKI/0.jpg)](https://www.youtube.com/watch?v=R5MCYf3mVKI)
+<!-- https://www.youtube.com/embed/iNqq75Uf57M -->
+<!-- [![Alt text](https://img.youtube.com/vi/iNqq75Uf57M/0.jpg)](https://www.youtube.com/embed/iNqq75Uf57M) -->
+<div align="center" width="800" height="1500" ><a href="https://www.youtube.com/embed/iNqq75Uf57M" title="MAgIC Demo"><img src="https://img.youtube.com/vi/iNqq75Uf57M/0.jpg" alt="Demo"   width="1300" height="600" /></a></div>
 
-[![Product Name Screen Shot][tease]]()
+<!--[![Product Name Screen Shot][tease]]()-->
 
 <!-- ## 📌Introducing MAgIC Benchmark🎉
 1. Run our bench with 
 2. We provide t -->
 
 <!-- TABLE OF CONTENTS -->
+
+[![Product Name Screen Shot][tease]]()
 <details>
   <Summary>Table of Contents</Summary>
   <ol>
@@ -91,7 +95,7 @@ MAgIC provides a benchmark that can quantitatively measure the abilities of Cogn
 
 
 ## Leaderboard
-We have tested 10 models in our benchmark, and the PGM method we proposd has achieved a remarkable improvement.
+We have tested 10 models in our benchmark, and the PGM method we proposed has achieved a remarkable improvement.
 [![Product Name Screen Shot][leaderboard]]()
 ## Getting Started
 
@@ -185,7 +189,7 @@ Lin Xu- [@Lin_Xu_](https://twitter.com/twitter_handle) - cathyxl2016@gmail.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [tease]: imgs/tease_horizontal.jpg
-[demo]: imgs/magic-demo.mp4
+[demo]: https://youtu.be/Vi0PlphNtSA
 [pgm]: imgs/pgm.jpg
 [logo]: imgs/logo.png
 [leaderboard]: imgs/leaderboard.png
