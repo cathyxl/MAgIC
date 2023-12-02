@@ -41,6 +41,9 @@ MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognitio
     <a href="https://arxiv.org/abs/2311.08562"> 📊 Leaderboard</a>
   </p>
 </div>
+<!-- https://youtu.be/R5MCYf3mVKI -->
+[![Alt text](https://img.youtube.com/vi/R5MCYf3mVKI/0.jpg)](https://www.youtube.com/watch?v=R5MCYf3mVKI)
+
 [![Product Name Screen Shot][tease]]()
 
 <!-- ## 📌Introducing MAgIC Benchmark🎉
