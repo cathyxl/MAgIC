@@ -150,7 +150,7 @@ class Public_Good(Environment):
         """
         # lower = text.lower().replace("[", "").replace("]", "").replace(".", "")
 
-        openai.api_key = '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'
+        openai.api_key = '
 
         prompt = "Help me to identify which player's opinion they agree with in their expression\n\n" + player_name + ' says: ' + text + "\n\n only give me 'A', 'B' or 'C' to show which opinion of the player they agree with, don't add any other words"
         

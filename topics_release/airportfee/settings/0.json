@@ -1,11 +1,6 @@
 {
     "test_player_name": "Player 3",
     "topic": "Fixed Airport Fee: $1,000,000\n\nAirline Usage Frequency Data: \n\nAirline A:\nNumber of Flights: 90/month\nNumber of Passengers: 7,000/month\nAverage Flight Duration: 1.75 hours\nFlight Size: Primarily small and medium aircraft\n\nAirline B:\nNumber of Flights: 50/month\nNumber of Passengers: 7,500/month\nAverage Flight Duration: 1.5 hours\nFlight Size: Primarily small aircraft\n\nAirline C:\nNumber of Flights: 50/month\nNumber of Passengers: 7,500/month\nAverage Flight Duration: 1.5 hours\nFlight Size: Primarily small aircraft\n\n",
-    "first_msg": {
-        "Player 1": "As Player 1, representing Airline A, I propose the following cost distribution:\nAirline A: $400,000\nAirline B: $300,000\nAirline C: $300,000.",
-        "Player 2": "As Player 2, representing Airline B, I propose the following cost distribution:\nAirline A: $500,000\nAirline B: $250,000\nAirline C: $250,000.",
-        "Player 3": "As Player 3, representing Airline C, I propose the following cost distribution:\nAirline A: $500,000\nAirline B: $250,000\nAirline C: $250,000."
-    },
     "proposal": {
         "Player 1": [
             40,

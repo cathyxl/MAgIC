@@ -181,6 +181,14 @@ class Chameleon_Competition(Environment):
         sample topic, code and chameleon code
         """
         self.game_path = None 
+         if self.competition["random"]:
+            self.topic = random.choice(list(self.topic_codes.keys()))
+            self.code = random.choice(self.topic_codes[self.topic])
+            self.chameleon_name = random.choice(self.player_names)
+        else:
+            self.topic = self.competition["topic"]
+            self.code = self.competition["code"]
+            self.chameleon_name = self.competition["chameleon_name"]
 
         self.player_backends = {}
         if self.competition:
@@ -190,15 +198,7 @@ class Chameleon_Competition(Environment):
                 else:
                     self.player_backends[player_name] = self.competition["non-chameleon"]
 
-
-        if self.competition["random"]:
-            self.topic = random.choice(list(self.topic_codes.keys()))
-            self.code = random.choice(self.topic_codes[self.topic])
-            self.chameleon_name = random.choice(self.player_names)
-        else:
-            self.topic = self.competition["topic"]
-            self.code = self.competition["code"]
-            self.chameleon_name = self.competition["chameleon_name"]
+       
         self.game_setting = {"topic": self.topic, "code": self.code, "chameleon_name": self.chameleon_name}
         self.non_chameleon_names = [name for name in self.player_names if name != self.chameleon_name]
         self.chameleon_idx = self.player_names.index(self.chameleon_name)
