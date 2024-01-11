@@ -1,10 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 
-<a name="readme-top"></a>
-
-
-
+<!-- <a name="readme-top"></a> -->
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -35,18 +32,30 @@ MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, A
     <a href="https://arxiv.org/abs/2311.08562">📖 Paper</a>
     <a href="https://arxiv.org/abs/2311.08562"> 📊 Leaderboard</a>
   </p>
+
+<a href="https://github.com/cathyxl/MAgIC/graphs/contributors">
+<img src=https://img.shields.io/github/contributors/cathyxl/MAgIC.svg?style=for-the-badge height="20"/>
+</a>
+<a href="https://github.com/cathyxl/MAgIC/network/members">
+<img src=https://img.shields.io/github/forks/cathyxl/MAgIC.svg?style=for-the-badge height="20"/>
+</a>
+<a href="https://github.com/cathyxl/MAgIC/issues">
+<img src=https://img.shields.io/github/issues/cathyxl/MAgIC.svg?style=for-the-badge height="20"/>
+</a>
+<a href="https://github.com/cathyxl/MAgIC/stargazers">
+<img src=https://img.shields.io/github/stars/cathyxl/MAgIC.svg?style=for-the-badge height="20"/>
+</a>
+<!-- <a href="https://github.com/cathyxl/MAgIC/blob/master/LICENSE.txt">
+<img src=https://img.shields.io/github/forks/cathyxl/MAgIC.svg?style=for-the-badge height="20"/>
+</a> -->
 </div>
+<br>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-<!-- https://youtu.be/R5MCYf3mVKI -->
-<!-- https://www.youtube.com/embed/iNqq75Uf57M -->
-<!-- [![Alt text](https://img.youtube.com/vi/iNqq75Uf57M/0.jpg)](https://www.youtube.com/embed/iNqq75Uf57M) -->
-<div align="center" width="600" height="1200" ><a href="https://www.youtube.com/embed/iNqq75Uf57M" title="MAgIC Demo"><img src="imgs/demo_front.png" alt="Demo"   width="1000" height="450" /></a></div>
+<div align="center" width="600" height="1200" >
+<a href="https://www.youtube.com/embed/iNqq75Uf57M" title="MAgIC Demo">
+<img src="imgs/demo_front.png" alt="Demo"   width="1000" height="450" />
+</a>
+</div>
 
 
 
@@ -78,7 +87,7 @@ MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, A
 </details> -->
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 📖 About The Project
 ### Scenarios
 MAgIC provides a benchmark that can quantitatively measure the abilities of Cognition, Adaptability, Rationality and Collaboration of Large Language Models within multi-agent sytems. Our benchmark are based competition on 5 scenarios:
 - Chameleon
