@@ -3,11 +3,7 @@
 
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -22,17 +18,14 @@
 <!-- :magic_wand: -->
 <!-- $\ddot{a}$ 🪄-->
 
-<br />
 <div align="center">
-
 <a href="https://zhiyuanhubj.github.io/MAgIC/">
     <img src="imgs/logo.png" alt="Logo" width="140" height="140">
 </a>
 
-<h1 align="center">
+<h2 align="center">
 
-MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h1>
-
+MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
   <p align="center">
     A competition-based benchmark with quantitative metrics for Large Language Model Powered Multi-agent system.
     <br />
@@ -43,6 +36,13 @@ MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognitio
     <a href="https://arxiv.org/abs/2311.08562"> 📊 Leaderboard</a>
   </p>
 </div>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 <!-- https://youtu.be/R5MCYf3mVKI -->
 <!-- https://www.youtube.com/embed/iNqq75Uf57M -->
 <!-- [![Alt text](https://img.youtube.com/vi/iNqq75Uf57M/0.jpg)](https://www.youtube.com/embed/iNqq75Uf57M) -->
