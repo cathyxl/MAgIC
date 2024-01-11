@@ -3,7 +3,11 @@
 
 <a name="readme-top"></a>
 
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -13,11 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 <!-- :magic_wand: -->
 <!-- $\ddot{a}$ 🪄-->
@@ -25,11 +25,13 @@
 <br />
 <div align="center">
 
-<a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="imgs/logo.png" alt="Logo" width="200" height="200">
+<a href="https://zhiyuanhubj.github.io/MAgIC/">
+    <img src="imgs/logo.png" alt="Logo" width="140" height="140">
 </a>
-<h2 align="center">
-MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h2>
+
+<h1 align="center">
+
+MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration</h1>
 
   <p align="center">
     A competition-based benchmark with quantitative metrics for Large Language Model Powered Multi-agent system.
@@ -44,18 +46,18 @@ MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognitio
 <!-- https://youtu.be/R5MCYf3mVKI -->
 <!-- https://www.youtube.com/embed/iNqq75Uf57M -->
 <!-- [![Alt text](https://img.youtube.com/vi/iNqq75Uf57M/0.jpg)](https://www.youtube.com/embed/iNqq75Uf57M) -->
-<div align="center" width="800" height="1500" ><a href="https://www.youtube.com/embed/iNqq75Uf57M" title="MAgIC Demo"><img src="imgs/front.jpg" alt="Demo"   width="1000" height="450" /></a></div>
+<div align="center" width="600" height="1200" ><a href="https://www.youtube.com/embed/iNqq75Uf57M" title="MAgIC Demo"><img src="imgs/demo_front.png" alt="Demo"   width="1000" height="450" /></a></div>
 
-<!--[![Product Name Screen Shot][tease]]()-->
 
-<!-- ## 📌Introducing MAgIC Benchmark🎉
-1. Run our bench with 
-2. We provide t -->
+
+
+## 📌 MAgIC Benchmark News 🎉🔥
+
 
 <!-- TABLE OF CONTENTS -->
 
-[![Product Name Screen Shot][tease]]()
-<details>
+<!-- [![Product Name Screen Shot][tease]]() -->
+<!-- <details>
   <Summary>Table of Contents</Summary>
   <ol>
     <li>
@@ -70,25 +72,26 @@ MAg&IumlC: Investigation of Large Language Model Powered Multi-Agent in Cognitio
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <!-- <li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
-</details>
+</details> -->
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
-<!-- [![ghaha][pgm]]() -->
-
+### Scenarios
 MAgIC provides a benchmark that can quantitatively measure the abilities of Cognition, Adaptability, Rationality and Collaboration of Large Language Models within multi-agent sytems. Our benchmark are based competition on 5 scenarios:
 - Chameleon
 - Undercover
 - Cost Sharing
 - Prisoner' Dilemma
 - Public Good
+
+### PGM-Aware Agent Structure
+[![ghaha][pgm]]()
+### Evaluation Metrics and Game Win Rate
+[![Product Name Screen Shot][tease]]()
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -135,8 +138,9 @@ python3 arena_runner.py
 ## Roadmap
 
 - [x] Upload relevant code
-- [ ] Add link to Leaderboard website
-- [ ] Introduce more scenarios and LLM results
+- [x] Add link to Leaderboard website
+- [x] Introduce more scenarios and LLM results
+- [ ] Add Online Demo where human and various LLMs can play together
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
